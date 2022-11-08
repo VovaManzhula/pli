@@ -1,0 +1,79 @@
+::-webkit-scrollbar {
+    width: 0;
+    
+  }
+.body{
+
+}
+.logo{
+    width: 100%;
+    height: 8vw;
+    border: 3px solid #8B008B ;
+    border-radius: 20vh;
+    text-align: center;
+font-size: 7vw;
+font-family: 'Blaka Ink', cursive ;
+
+}
+.game-field{
+    position: relative;
+}
+.jon{
+    height: 80vh;
+    position: absolute;
+    width: 38vw;
+    right: 63vw;
+z-index: 5;
+}
+.bals{
+    position: absolute;
+    left:13vw;
+    height: 15vh;
+    width: 5vw;
+    top: 56vh;
+}
+.dick{
+    position: absolute;
+    right:65vw;
+    height: 14.5vh;
+    width: 100vw;
+    top: 52vh;
+   
+}
+.plishko{
+    height: 45vh;
+    position: absolute;
+    width: 37vw;
+    bottom: -81vh;
+    left: 62vw;
+  
+
+}
+.move{
+    transition:4s;
+    transform: translate(56vw);
+}
+
+    .button{
+        width: 18vw;
+        height: 15vh;
+        position: absolute;
+        top: 15vh;
+        left: 40vw;
+        font-family: 'Nunito', sans-serif;
+        font-size: 22px;
+        text-transform: uppercase;
+        letter-spacing: 1.3px;
+        font-weight: 700;
+        color: #313133;
+        background: #4FD1C5;
+      background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+        border: none;
+        border-radius: 1000px;
+        box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+        transition: all 0.3s ease-in-out 0s;
+        cursor: pointer;
+        outline: none;
+       
+        padding: 10px;
+    }
